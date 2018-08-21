@@ -1,3 +1,4 @@
+@import url(../fontello-0f24a83e/fontello-0f24a83e/css/fontello.css);
 body {
   background-color: #ffffff; }
   body .mainContent {
@@ -79,24 +80,113 @@ body .topContent {
   font-family: Lato, sans-serif;
   width: 100%;
   height: 700px;
-  background-color: darkcyan;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  background-blend-mode: soft-light;
+  background: #0f1631 url("https://images8.alphacoders.com/903/thumb-1920-903577.jpg") space center; }
   body .topContent-accLinks {
     margin-top: 50px;
     background-color: rgba(255, 255, 255, 0.31);
     width: 800px;
-    height: 250px;
+    height: 150px;
     border-radius: 7px;
-    padding: 25px; }
-    body .topContent-accLinks-avatarBox_flag {
-      width: 90px; }
-    body .topContent-accLinks-avatarBox_avatar {
-      width: 140px;
-      border-radius: 100px; }
+    padding: 25px;
+    display: flex; }
+    body .topContent-accLinks-avatarBox {
+      position: relative;
+      width: 200px;
+      height: 100%; }
+      body .topContent-accLinks-avatarBox_flag {
+        width: 90px; }
+      body .topContent-accLinks-avatarBox_avatar {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        left: 25px;
+        top: 25px; }
+    body .topContent-accLinks-info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between; }
+      body .topContent-accLinks-info-top {
+        display: flex; }
+        body .topContent-accLinks-info-top_name {
+          font-size: 2rem;
+          font-weight: bold;
+          color: white; }
+        body .topContent-accLinks-info-top_twitchLink {
+          text-decoration: none;
+          color: white;
+          font-size: 2rem;
+          border-radius: 50%;
+          width: 2.8rem;
+          height: 2.8rem;
+          padding-top: 0.3rem;
+          padding-left: 0.2rem;
+          padding-right: 0.2rem;
+          margin-left: 15px;
+          background-color: #644c84; }
+      body .topContent-accLinks-info-middle {
+        display: flex; }
+        body .topContent-accLinks-info-middle_star {
+          color: gold;
+          margin-right: 10px;
+          font-size: 1.5rem;
+          margin-top: -0.35rem; }
+        body .topContent-accLinks-info-middle_favorite {
+          font-size: 1rem;
+          color: white; }
+      body .topContent-accLinks-info-bottom {
+        display: flex; }
+        body .topContent-accLinks-info-bottom-socialLink {
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: center;
+          color: white;
+          margin-right: 18px; }
+          body .topContent-accLinks-info-bottom-socialLink_value {
+            color: white;
+            font-size: 1.25rem; }
+          body .topContent-accLinks-info-bottom-socialLink a {
+            text-decoration: none;
+            color: white;
+            font-size: 0.6rem;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            padding-top: 0.35rem;
+            padding-left: 0.35rem;
+            margin-right: 5px; }
+          body .topContent-accLinks-info-bottom-socialLink .icon-share {
+            margin-top: -1.1rem;
+            font-size: 1.5rem; }
+          body .topContent-accLinks-info-bottom-socialLink .icon-vkontakte {
+            background-color: #0f1631; }
+          body .topContent-accLinks-info-bottom-socialLink .icon-facebook {
+            background-color: #005580; }
+          body .topContent-accLinks-info-bottom-socialLink .icon-twitter {
+            background-color: #0088cc; }
+    body .topContent-accLinks-menu-buttons {
+      background-color: white;
+      border-radius: 100px;
+      display: flex;
+      padding: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-weight: bold; }
+      body .topContent-accLinks-menu-buttons a {
+        margin-right: 20px;
+        color: #999999;
+        text-decoration: none;
+        font-size: 1rem; }
+        body .topContent-accLinks-menu-buttons a:hover {
+          color: #333333; }
   body .topContent-accStats {
     display: flex;
     justify-content: space-around;

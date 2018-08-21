@@ -3,25 +3,116 @@ body
     font-family: Lato, sans-serif
     width: 100%
     height: 700px
-    background-color: darkcyan
     display: flex
     flex-wrap: wrap
     flex-direction: column
     justify-content: space-between
     align-items: center
+    background-blend-mode: soft-light
+    background: rgb(15, 22, 49) url("https://images8.alphacoders.com/903/thumb-1920-903577.jpg") space center
     &-accLinks
       margin-top: 50px
       background-color: rgba(255, 255, 255, 0.31)
       width: 800px
-      height: 250px
+      height: 150px
       border-radius: 7px
       padding: 25px
+      display: flex
       &-avatarBox
+        position: relative
+        width: 200px
+        height: 100%
         &_flag
           width: 90px
         &_avatar
-          width: 140px
+          width: 130px
+          height: 130px
+          border-radius: 50%
+          object-fit: cover
+          position: absolute
+          left: 25px
+          top: 25px
+      &-info
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        justify-content: space-between
+        &-top
+          display: flex
+          &_name
+            font-size: 2rem
+            font-weight: bold
+            color: white
+          &_twitchLink
+            text-decoration: none
+            color: white
+            font-size: 2rem
+            border-radius: 50%
+            width: 2.8rem
+            height: 2.8rem
+            padding-top: 0.30rem
+            padding-left: 0.20rem
+            padding-right: 0.20rem
+            margin-left: 15px
+            background-color: #644c84
+        &-middle
+          display: flex
+          &_star
+            color: gold
+            margin-right: 10px
+            font-size: 1.5rem
+            margin-top: -0.35rem
+          &_favorite
+            font-size: 1rem
+            color: white
+        &-bottom
+          display: flex
+          &-socialLink
+            display: flex
+            flex-wrap: nowrap
+            align-items: center
+            color: white
+            margin-right: 18px
+            &_value
+              color: white
+              font-size: 1.25rem
+            a
+              text-decoration: none
+              color: white
+              font-size: 0.60rem
+              border-radius: 50%
+              width: 20px
+              height: 20px
+              padding-top: 0.35rem
+              padding-left: 0.35rem
+              margin-right: 5px
+            .icon-share
+              margin-top: -1.1rem
+              font-size: 1.5rem
+            .icon-vkontakte
+              background-color: #0f1631
+            .icon-facebook
+              background-color: #005580
+            .icon-twitter
+              background-color: #0088cc
+      &-menu
+        //margin-left: 50px
+        &-buttons
+          background-color: white
           border-radius: 100px
+          display: flex
+          padding: 15px
+          padding-left: 25px
+          padding-right: 25px
+          font-weight: bold
+          a
+            margin-right: 20px
+            color: #999999
+            text-decoration: none
+            font-size: 1rem
+            &:hover
+              color: #333333
+
     &-accStats
       display: flex
       justify-content: space-around
