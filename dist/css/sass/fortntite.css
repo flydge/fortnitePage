@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffff; }
+  body .mainContent {
+    margin: 100px;
+    display: flex;
+    justify-content: center; }
+    body .mainContent-container {
+      display: flex;
+      justify-content: space-between;
+      width: 900px; }
+      body .mainContent-container-statsBox {
+        margin-top: -230px;
+        background-color: white;
+        width: 250px;
+        height: 850px;
+        border-radius: 7px;
+        padding: 20px;
+        box-shadow: 0 0 15px #c8c8c8; }
+        body .mainContent-container-statsBox-title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;
+          font-size: 1.5rem;
+          font-family: Lato, sans-serif;
+          font-weight: bold; }
+        body .mainContent-container-statsBox-mainStats {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 10px;
+          margin-bottom: 40px; }
+          body .mainContent-container-statsBox-mainStats-box {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            border-radius: 7px;
+            box-shadow: 0 0 1rem #cccccc;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            body .mainContent-container-statsBox-mainStats-box_title {
+              font-size: 1rem;
+              color: #999; }
+            body .mainContent-container-statsBox-mainStats-box_value {
+              margin-top: -8px;
+              font-size: 1.25rem;
+              font-weight: bold; }
+        body .mainContent-container-statsBox-allStats-row {
+          width: 100%;
+          display: flex; }
+          body .mainContent-container-statsBox-allStats-row-label {
+            font-size: 1.1rem;
+            color: #939393;
+            width: 90px;
+            padding-right: 10px;
+            padding-top: 10px;
+            text-align: center; }
+          body .mainContent-container-statsBox-allStats-row-valueBox {
+            padding: 10px;
+            width: 60%; }
+            body .mainContent-container-statsBox-allStats-row-valueBox_value {
+              font-size: 1rem;
+              font-weight: bold; }
+            body .mainContent-container-statsBox-allStats-row-valueBox_border {
+              height: 4px;
+              border-radius: 2px;
+              background-color: aquamarine;
+              box-shadow: 3px 10px 7px #e2e2e2;
+              margin-bottom: 7px; }
+            body .mainContent-container-statsBox-allStats-row-valueBox_position {
+              font-size: 1rem;
+              color: #999; }
+
+body .topContent {
+  font-family: Lato, sans-serif;
+  width: 100%;
+  height: 700px;
+  background-color: darkcyan;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  body .topContent-accLinks {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.31);
+    width: 800px;
+    height: 250px;
+    border-radius: 7px;
+    padding: 25px; }
+    body .topContent-accLinks-avatarBox_flag {
+      width: 90px; }
+    body .topContent-accLinks-avatarBox_avatar {
+      width: 140px;
+      border-radius: 100px; }
+  body .topContent-accStats {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.31);
+    width: 800px;
+    height: 200px;
+    border-radius: 7px;
+    padding: 20px; }
+    body .topContent-accStats-statBox_label {
+      color: #cccccc;
+      font-size: 1rem; }
+    body .topContent-accStats-statBox_value {
+      color: white;
+      font-size: 2.5rem; }
+
+/*# sourceMappingURL=fortntite.css.map */
