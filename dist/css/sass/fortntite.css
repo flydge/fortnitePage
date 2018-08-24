@@ -250,17 +250,108 @@ body .topContent {
   display: flex;
   justify-content: center; }
   .bottomContent-container {
-    width: 900px;
-    height: 300px;
-    background-color: #939393;
-    border-radius: 7px; }
-    .bottomContent-container-header {
-      border-radius: 7px;
-      margin-bottom: -15px;
-      height: 50px;
-      background-color: #365684; }
-    .bottomContent-container-content {
-      height: 230px;
-      background-color: #e2e2e2; }
+    margin-bottom: 50px; }
+    .bottomContent-container-table {
+      border-radius: 17px;
+      border-collapse: collapse;
+      overflow: hidden;
+      width: 900px;
+      height: 350px;
+      box-shadow: 0 0 1rem #cccccc; }
+      .bottomContent-container-table-header {
+        height: 70px;
+        background-image: linear-gradient(20deg, #55676B, #8ACD9E);
+        display: flex;
+        padding: 0px 15px;
+        justify-content: space-between;
+        align-items: center;
+        color: white; }
+        .bottomContent-container-table-header-left {
+          font-weight: bold;
+          font-size: 1.7rem;
+          width: 400px;
+          color: white;
+          margin-right: 150px; }
+        .bottomContent-container-table-header-right {
+          width: 100%;
+          font-size: 1rem;
+          display: flex;
+          justify-content: space-between; }
+      .bottomContent-container-table-content {
+        height: 280px;
+        background-color: #e2e2e2;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        .bottomContent-container-table-content_td {
+          width: 100%;
+          height: 100%;
+          display: flex; }
+        .bottomContent-container-table-content-left {
+          background: white;
+          width: 300px;
+          height: 100%;
+          padding: 20px; }
+          .bottomContent-container-table-content-left-labelBox {
+            font-size: 1.25rem;
+            color: #999;
+            height: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+          .bottomContent-container-table-content-left-statsBox .mainStats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px; }
+            .bottomContent-container-table-content-left-statsBox .mainStats-box {
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 100px;
+              border-radius: 7px;
+              box-shadow: 0 0 1rem #cccccc;
+              margin-left: 5px;
+              margin-right: 5px;
+              padding-top: 10px; }
+              .bottomContent-container-table-content-left-statsBox .mainStats-box_title {
+                font-size: 1rem;
+                color: #999; }
+              .bottomContent-container-table-content-left-statsBox .mainStats-box_value {
+                margin-top: -8px;
+                font-size: 1.75rem;
+                font-weight: bold; }
+        .bottomContent-container-table-content-right {
+          width: 100%;
+          height: 300px;
+          background: #eeeeee;
+          padding: 10px;
+          overflow: auto; }
+          .bottomContent-container-table-content-right-tableRow {
+            padding: 0 10px;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 2px solid #a8a8a8;
+            text-align: center; }
+            .bottomContent-container-table-content-right-tableRow-result {
+              font-weight: bold;
+              width: 100px;
+              text-align: left; }
+              .bottomContent-container-table-content-right-tableRow-result_win {
+                color: green; }
+            .bottomContent-container-table-content-right-tableRow_time {
+              width: 100px;
+              text-align: center; }
+            .bottomContent-container-table-content-right-tableRow_mode {
+              width: 100px;
+              font-weight: bold; }
+            .bottomContent-container-table-content-right-tableRow_score {
+              width: 100px; }
+            .bottomContent-container-table-content-right-tableRow_kills {
+              width: 100px; }
 
 /*# sourceMappingURL=fortntite.css.map */
